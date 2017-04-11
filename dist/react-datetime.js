@@ -1257,7 +1257,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		},
 
 		updateSelectedYear: function( event ) {
-			this.props.updateSelectedDate( event );
+			this.props.updateSelectedDate( event, true );
 		},
 
 		renderYear: function( props, year ) {
